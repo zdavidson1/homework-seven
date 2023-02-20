@@ -1,0 +1,204 @@
+.offers-wrapper {
+
+    .offers-title {
+        text-transform: uppercase;
+        font-size: xx-large;
+        margin-top: 55.5px;
+
+        .text {
+            text-decoration: underline;
+        }
+
+    }  
+
+    .offers-body {
+        width: 90%;
+        height: 32.856%;
+        display: flex;
+        margin-top: 44px;
+
+        .offers-image {
+            height: 100%;
+            width: 23.3%;
+            background-image: url(../images/special-offer-01.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .offers-text {
+            margin-left: 20px;
+
+            p {
+                margin-top: 28px;
+                font-size: large;
+                width: 290px;
+            }
+        }
+
+        .text1 {
+            text-decoration: underline;
+            font-size: xx-large;
+        }
+
+        .text2 {
+            color: red;
+            margin-left: 5px;
+        }
+
+        .learn-more {
+            height: 40px;
+                width: 133px;
+                background-color: #79ADDC;
+                font-size: medium;
+                padding-top: 10px;
+                margin-top: 0px;
+                border-radius: 100px;
+                color: white;
+                text-align: center;
+                margin-bottom: 100px;
+                text-transform: uppercase;
+
+        }
+        .offers-image2 {
+            height: 100%;
+            width: 23.3%;
+            background-image: url(../images/special-offer-02.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    }
+} 
+
+.blog-title {
+    font-size: xx-large;
+    text-decoration: underline;
+    margin-top: 76px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.blog-wrapper {
+    width: 76.56%;
+    height: 66.77%;
+    margin-top: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .date-box {
+        color: white;
+        height: 60px;
+        width: 60px;
+        background-color: #79ADDC;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .blog-image {
+        height: 259px;
+        width: 900px;
+        background-image: url(../images/blog.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.blog-text {
+    margin-left: 230px;
+    margin-top: 20px; 
+    margin-bottom: 40px;
+
+    h1 {
+
+    }
+
+    p {
+        color: #79ADDC;
+        height: 64px;
+        width: 380px;
+    }
+}
+
+.blog-text2 {
+    margin-left: 230px;
+    margin-top: 20px; 
+    margin-bottom: 100px;
+
+    h1 {
+
+    }
+
+    p {
+        color: #79ADDC;
+        height: 64px;
+        width: 380px;
+    }
+}
+
+.contact-wrapper {
+    display: flex;
+    height: 40.77%;
+    width: 75%;
+    margin: 0 auto 0;
+    justify-content: space-evenly;
+
+    .contact-image {
+        height: 442px;
+        width: 70%;
+        background-image: url(../images/flat-street-map-direction-gps-navigation-road-town-pins-simple-information-scheme-city-river-travel-plan-route-174351973.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-right: 40px;
+    }
+
+    .contact-form {
+        margin-left: 30px;
+    }
+
+}
+.contact-info {
+    display: flex;
+    margin-top: 34px;
+    margin-left: 12.8%;
+    margin-bottom: 10%;
+
+    h3 {
+        font-size: 150%;
+        height: 100%;
+        width: 30%;
+    }
+}
+
+
+input[type="text"] {
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    display: table-cell;
+    vertical-align: top;
+  }
+  
+  input[type="text"]::placeholder {
+    color: black;
+  }
+
+
+  .learn-more2 {
+            height: 60px;
+                width: 14%;
+                background-color: #79ADDC;
+                font-size: medium;
+                padding-top: 22px;
+                color: white;
+                text-align: center;
+                margin-left: 8.5%;
+                    text-transform: uppercase; }

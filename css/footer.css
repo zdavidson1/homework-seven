@@ -1,0 +1,68 @@
+footer .footer {
+  background-color: #79ADDC;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  width: 100%;
+  padding: 0 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer .footer-logo {
+  width: 136px;
+  height: 60px;
+  background-image: url(../images/logos/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 20px;
+}
+footer .footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+footer .footer-link {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+footer .facebook {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/facebooklogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .instagram {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/instagramlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
+footer .twitter {
+  height: 22.96px;
+  width: 22.96px;
+  background-image: url(../images/logos/twitterlogo.png);
+  background-size: cover;
+  background-position: center;
+  margin-right: 10px;
+}
